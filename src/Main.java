@@ -150,6 +150,24 @@ public class Main {
         int totalQuantityDay2 = excessWeight / lostWeightInOneDay2;
         System.out.println(totalQuantityDay2);
 
+        int salaryMasha = 67760;
+        int salaryDenis = 83690;
+        int salaryKristina = 76230;
+        byte salaryIncrease = 10;
+        int salaryMasha2 = (salaryMasha / salaryIncrease) + salaryMasha;
+        System.out.println(salaryMasha2);
+        byte monthInYear = 12;
+        int salaryMasha2InYear = (salaryMasha / salaryIncrease) * monthInYear;
+        System.out.println("Маша теперь получает " + salaryMasha2 + " рублей." + " Годовой доход вырос на " + salaryMasha2InYear + " рублей" );
+        int salaryDenis2 = (salaryDenis / salaryIncrease) + salaryDenis;
+        System.out.println(salaryDenis2);
+        int salaryDenis2InYear = (salaryDenis / salaryIncrease) * monthInYear;
+        System.out.println("Денис теперь получает " + salaryDenis2 + " рублей." + " Годовой доход вырос на " + salaryDenis2InYear + " рублей");
+        int salaryKristina2 = (salaryKristina / salaryIncrease) + salaryKristina;
+        System.out.println(salaryKristina2);
+        int salaryKristina2InYear = (salaryKristina2 / salaryIncrease) * monthInYear;
+        System.out.println("Кристина теперь получает " + salaryKristina2 + " рублей." + " Годовой доход вырос на " + salaryKristina2InYear + " рублей");
+
 
 
 
