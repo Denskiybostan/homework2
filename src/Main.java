@@ -117,7 +117,7 @@ public class Main {
         System.out.println(totalNumberBrownPaint);
         int totalNumberWhitePaint = totalNumberClasses * whitePaintFor1CLass;
         System.out.println(totalNumberWhitePaint);
-        System.out.println("В школе, где 20 классов, нужно 40 банок белой краски и 80 банок коричневой краски");
+        System.out.println("В школе, где " + totalNumberClasses + " классов, нужно " + totalNumberWhitePaint + " банок белой краски и" + totalNumberBrownPaint + "банок коричневой краски");
 
         byte quantityBananas = 5;
         byte weightOneBanana = 80;
