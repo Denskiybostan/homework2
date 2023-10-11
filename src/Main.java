@@ -168,6 +168,41 @@ public class Main {
         int salaryKristina2InYear = (salaryKristina2 / salaryIncrease) * monthInYear;
         System.out.println("Кристина теперь получает " + salaryKristina2 + " рублей." + " Годовой доход вырос на " + salaryKristina2InYear + " рублей");
 
+        int age = 15;
+        if (age >= 18) {
+            System.out.println("Если возраст человека равен 18, то он совершеннолетний");
+            }
+            if (age < 18) {
+                System.out.println("Если возраст человека меньше 18, то оно несовершеннолетний, нужно немного подождать");
+
+            }
+            int temperature = 3;
+            if (temperature > 5) {
+                System.out.println("Можно идти без шапки");
+            }
+            if (temperature < 5) {
+                System.out.println("На улице " + temperature + " градуса, нужно надеть шапку");
+            }
+            int speed = 59;
+            if (speed > 60) {
+                System.out.println("Если скорость " + speed + " км/час придется заплатить штраф");
+            }
+            if (speed < 60) {
+                System.out.println("Если скорость " + speed + " км/час можно ездить спокойно");
+            }
+            int manAge = 6;
+            if (manAge <= 6 && manAge != 1) {
+                System.out.println("Если возраст человека равен " + manAge + " то ему нужно ходить в детский сад");
+            int manAge2 = 17;
+            if (manAge2 <= 17 && manAge2 != 6) {
+                System.out.println("Если возраст человека равен " + manAge2 + " ему нужно ходить в школу");
+
+            }
+
+        }
+
+
+
 
 
 
