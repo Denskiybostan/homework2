@@ -240,9 +240,7 @@ public class Main {
             System.out.println("Число " + two + " больше числа " + three+ " и больше числа " + one);
         } else
             System.out.println("Число " + one + " больше числа " + three + " и больше числа " + two);
-
         }
-
     }
 
 
